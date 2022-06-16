@@ -3,7 +3,6 @@ import { Calculator } from './contracts'
 import { Axios } from 'axios'
 import { ParserOptions, parseStringPromise } from 'xml2js'
 
-// https://documenter.getpostman.com/view/8854915/Szf26WHn
 export default class CalculatorService implements Calculator {
   private readonly api: Axios
   private readonly xmlParserOptions: ParserOptions
